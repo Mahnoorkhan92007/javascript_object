@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+
+<body>
+
+
+    <h1>Enter Population Records</h1>
+    <form id="formrecords">
+        <label for="Firstname"><b>First Name</b></label>
+        <input id="Firstname" type="text" maxlength="30" size="30" placeholder="First Name" required>
+        <br>
+
+        <br>
+        <div id="gender" style="display: inline;">
+            <label><b>Gender:</b> </label>
+            <label>Male</label>
+            <input required type="radio" name="gender" id="male">
+            <label>Female</label>
+            <input required type="radio" name="gender" id="Female">
+            <label>Other</label>
+            <input type="radio" name="gender" required id="other"> 
+
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <label for="education"><b>Education</b></label>
+            <select id="education" required>
+                <option value="">Select</option>
+                <option value="Matric">Matric</option>
+                <option value="Inter">Inter</option>
+                <option value="B-Com">B-Com</option>
+                <option value="MBBS">MBBS</option>
+                <option value="Masters">Masters</option>
+                <option value="PHD">PHD</option>
+
+
+            </select>
+
+        </div>
+        <br>
+        <br>
+        <div>
+
+            <label for="profession"><b>Profession</b></label>
+            <select id="profession" required>
+                <option value="">Select</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Architect">Architect</option>
+                <option value="Accountant">Accountant</option>
+                <option value="Electrician">Electrician</option>
+                <option value="Designer">Designer</option>
+                <option value="Chef">Chef</option>
+                <option value="Lawyer">Lawyer</option>
+                <option value="Scientist">Scientist</option>
+                <option value="Police officer">Police officer</option>
+
+
+
+            </select>
+        </div>
+        <br>
+        <br>
+        <button id="button"><b>SUBMIT</b></button>
+
+
+    </form>
+
+    <script src="object.js"></script>
+</body>
+
+</html>
